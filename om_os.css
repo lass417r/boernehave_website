@@ -1,0 +1,47 @@
+#section2_omos {
+  display: grid;
+}
+
+.section_wrapper_omos1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 1rem;
+}
+
+.img1_omos {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 800px) {
+  /* ------------- SECTION 4 -------------- */
+  #section3_omos .section_wrapper_omos2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  #section3_omos .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.section_wrapper_omos3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 1rem;
+}
+
+.img10_omos {
+  height: 100%;
+  object-fit: cover;
+}
+
+#section5_omos .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
