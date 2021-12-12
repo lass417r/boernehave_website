@@ -15,7 +15,6 @@
 }
 
 @media (min-width: 800px) {
-  /* ------------- SECTION 4 -------------- */
   #section3_omos .section_wrapper_omos2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
