@@ -12,14 +12,17 @@
   grid-template-columns: 1fr 1fr;
   gap: 150px;
 }
+
 .col_left {
   display: grid;
   place-content: end;
+  text-align: center;
 }
 
 .col_right {
   display: grid;
   place-content: start;
+  text-align: center;
 }
 /*-------Sektion 3-------*/
 #section3_k .section_wrapper_k {
