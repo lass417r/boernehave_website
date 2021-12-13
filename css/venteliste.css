@@ -1,0 +1,32 @@
+#section1_vente {
+  margin-top: 10%;
+}
+
+#section1_vente img {
+  margin-top: 7%;
+  margin-bottom: 7%;
+  height: auto;
+  width: 18rem;
+}
+
+#venteknap {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+#section2_vente {
+  margin-top: 5%;
+}
+
+#wrap_vente {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1;
+  grid-gap: 15px;
+}
+
+img {
+  max-width: 100%;
+}

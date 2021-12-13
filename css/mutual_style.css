@@ -10,6 +10,7 @@ h2 {
 }
 p {
   font-family: "urbane-rounded", sans-serif;
+  line-height: 160%;
 }
 
 #adresse_forside {
