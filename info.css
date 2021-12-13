@@ -1,6 +1,71 @@
+/* ---------------- MUTUAL -------------------- */
+/* html {
+  --first-color: #263173;
+  --second-color: #44a694;
+  --third-color: #f2b90c;
+  --fourth-color: #d9564a;
+  --fifth-color: #f2acac;
+
+  --textcolor1: black;
+  --textcolor2: white;
+
+  --spacing-1: 1rem;
+  --spacing-2: 1.5rem;
+  --spacing-3: 2rem;
+
+  --textsize-xxs: 0.25rem;
+  --textsize-xs: 0.5rem;
+  --textsize-sm: 1rem;
+  --textsize-md: 1.5rem;
+  --textsize-lg: 2rem;
+  --textsize-xl: 2.5rem;
+  --textsize-xxl: 3rem;
+  --textsize-xxxl: 6rem;
+
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+body {
+  margin: var(--spacing-2);
+}
+header {
+  position: sticky;
+  top: 0;
+}
+
+h1,
+h2 {
+  font-family: vag-rundschrift-d, sans-serif;
+}
+h3,
+h4,
+p,
+li {
+  font-family: urbane-rounded, sans-serif;
+}
+a:hover {
+  color: var(--third-color);
+} */
+/* --------- GENERELT PÅ INFO ----------- */
+li,
+a {
+  list-style-type: none;
+  box-sizing: border-box;
+  background-color: var(--second-color);
+  color: var(--textcolor1);
+  margin: var(--spacing-1);
+  padding: var(--spacing-2);
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
 /* ------------- SECTION 2 -------------- */
 #section2_info {
   display: grid;
+}
+img {
+  padding: var(--spacing-1);
 }
 
 .section_wrapper_info1 {
@@ -13,6 +78,19 @@
 .img1_info {
   height: 100%;
   object-fit: cover;
+}
+
+/* ------------- SECTION 4 -------------- */
+.col {
+  box-sizing: border-box;
+  background-color: var(--first-color);
+  color: var(--textcolor2);
+  padding: var(--spacing-1);
+  margin: var(--spacing-2);
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 
 @media (min-width: 800px) {
