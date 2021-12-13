@@ -1,0 +1,48 @@
+/*-------Sektion 1-------*/
+#section1_k {
+  display: grid;
+}
+#section1_k .section_wrapper_k {
+  display: grid;
+  place-content: center;
+}
+/*-------Sektion 2-------*/
+#section2_k .section_wrapper_k {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+}
+
+.col_left {
+  display: grid;
+  place-content: end;
+  text-align: center;
+}
+
+.col_right {
+  display: grid;
+  place-content: start;
+  text-align: center;
+}
+/*-------Sektion 3-------*/
+#section3_k .section_wrapper_k {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 182px;
+}
+.days {
+  display: grid;
+  place-content: end;
+}
+.time {
+  display: grid;
+  place-content: start;
+}
+/*-------Sektion 4-------*/
+#section4_k {
+  display: grid;
+}
+.closing {
+  display: grid;
+  place-content: center;
+}
