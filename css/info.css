@@ -91,9 +91,11 @@ img {
     gap: 15px;
   }
   #section4_info .col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: inline-block;
+    height: auto;
+  }
+  .col p {
+    margin-top: 1rem;
   }
 }
 
