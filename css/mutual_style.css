@@ -33,6 +33,10 @@ li a {
   line-height: 50%;
 }
 
+footer {
+  line-height: 0vh;
+}
+
 *,
 *:before,
 *:after {
@@ -76,6 +80,7 @@ li a {
     background: #fff;
     box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 999;
   }
 
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -201,6 +206,7 @@ li a {
     background: #fff;
     box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 999;
   }
 
   .topnav #myLinks {
