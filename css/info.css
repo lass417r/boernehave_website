@@ -10,6 +10,10 @@ html {
 body {
   margin-top: 7rem;
 }
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 /* ------------- SECTION 2 -------------- */
 #section2_info {
   display: grid;
@@ -32,7 +36,7 @@ img {
   border-top-left-radius: 25px;
 }
 #section2_info a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 #section2_info a:hover {
@@ -64,7 +68,7 @@ img {
   border-top-left-radius: 25px;
 }
 #section3_info a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 #section3_info a:hover {
@@ -82,7 +86,12 @@ img {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
 }
-
+.col p {
+  margin-top: 1rem;
+}
+footer p {
+  margin: 1px;
+}
 @media (min-width: 750px) {
   /* ------------- SECTION 4 -------------- */
   #section4_info .section_wrapper_info2 {
@@ -93,9 +102,6 @@ img {
   #section4_info .col {
     display: inline-block;
     height: auto;
-  }
-  .col p {
-    margin-top: 1rem;
   }
 }
 
