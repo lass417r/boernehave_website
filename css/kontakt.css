@@ -13,7 +13,10 @@ h3 {
 }
 
 /*-------Sektion 1-------*/
-
+.element2_k {
+  display: grid;
+  place-content: center;
+}
 .map-responsive {
   overflow: hidden;
   padding-bottom: 31.25%;
@@ -37,6 +40,9 @@ h3 {
   .anita_leader {
     text-align: center;
   }
+}
+.image_anita {
+  padding: 2rem;
 }
 .coltxt_1 {
   display: grid;
@@ -78,6 +84,13 @@ h3 {
     gap: 10px;
   }
 }
+#section3_k h3 {
+  margin-bottom: -2rem;
+}
+#section3_k p {
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
 @media (min-width: 750px) {
   .days {
     display: grid;
@@ -85,12 +98,12 @@ h3 {
   .time {
     display: grid;
   }
+
   /*-------Sektion 4-------*/
   #section4_k {
     display: grid;
   }
   .closing {
     display: grid;
-    place-content: center;
   }
 }
