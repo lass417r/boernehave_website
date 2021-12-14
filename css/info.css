@@ -25,22 +25,11 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 50px;
 }
-
-/* h1,
-h2 {
-  font-family: vag-rundschrift-d, sans-serif;
-}
-h3,
-h4,
-p,
-li {
-  font-family: urbane-rounded, sans-serif;
-} */
 a:hover {
   color: var(--third-color);
 }
 /* --------- GENERELT PÅ INFO ----------- */
-/* li,
+li,
 a {
   list-style-type: none;
   box-sizing: border-box;
@@ -52,7 +41,7 @@ a {
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
-} */
+}
 /* ------------- SECTION 2 -------------- */
 #section2_info {
   display: grid;
