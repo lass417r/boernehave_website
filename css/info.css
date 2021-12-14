@@ -7,6 +7,12 @@ html {
   --fifth-color: #f2acac;
 }
 /* --------- GENERELT PÅ INFO ----------- */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 body {
   margin-top: 7rem;
 }
@@ -49,7 +55,6 @@ img {
 }
 
 .img1_info {
-  height: 100%;
   object-fit: cover;
 }
 /* --------------- SECTION 3 ---------------- */
