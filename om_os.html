@@ -10,38 +10,40 @@
     <link rel="stylesheet" href="css/om_os.css" />
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="https://use.typekit.net/oer7kyv.css" />
+    
   </head>
   <body>
     <header>
       <nav role="navigation" class="topnav">
-        <a href="index.html"
-          ><img class="logo" src="billeder/logo.png" alt="Logo"
-        /></a>
+        <a href="index.html">
+          <img class="logo" src="billeder/logo.png" alt="Logo" />
+        </a>
         <div id="myLinks">
           <ul>
             <li><a href="index.html">Forside</a></li>
             <li>
               <a href="om_os.html">Om os</a>
               <ul>
-                <li><a href="">Læreplan</a></li>
-                <li><a href="">Personale</a></li>
-                <li><a href="">Priser</a></li>
+                <li><a href="om_os.html#section2_omos">Læreplan</a></li>
+                <li><a href="om_os.html#section3_omos">Personale</a></li>
+                <li><a href="om_os.html#section4_omos">Traditioner</a></li>
+                <li><a href="om_os.html#section5_omos">Priser</a></li>
               </ul>
             </li>
             <li>
               <a href="info.html">Info</a>
               <ul>
-                <li><a href="">Årsplan</a></li>
-                <li><a href="">Tilsyn</a></li>
-                <li><a href="">Politikker</a></li>
+                <li><a href="info.html#section2_info">Årsplan</a></li>
+                <li><a href="info.html#section3_info">Tilsyn</a></li>
+                <li><a href="info.html#section4_info">Politikker</a></li>
               </ul>
             </li>
             <li>
               <a href="kontakt.html">Kontakt</a>
               <ul>
-                <li><a href="">Kontaktinformation</a></li>
-                <li><a href="">Åbningstider</a></li>
-                <li><a href="">Lukkedage</a></li>
+                <li><a href="kontakt.html#section2_k">Kontaktinformation</a></li>
+                <li><a href="kontakt.html#section3_k">Åbningstider</a></li>
+                <li><a href="kontakt.html#section4_k">Lukkedage</a></li>
               </ul>
             </li>
             <li><a href="venteliste.html">Venteliste</a></li>
@@ -63,7 +65,7 @@
       </nav>
     </header>
     <main>
-      <section id="section1_omos">
+      <section class="content" id="section1_omos">
         <h2>Om os</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -72,7 +74,7 @@
           dolorum voluptate sunt ullam.
         </p>
       </section>
-      <section id="section2_omos">
+      <section class="content" id="section2_omos">
         <h2>Læreplan</h2>
         <div class="section_wrapper_omos1">
           <div class="img1_omos">
@@ -90,7 +92,7 @@
         </div>
       </section>
 
-      <section id="section3_omos">
+      <section class="content" id="section3_omos">
         <h2>Personale</h2>
         <p> Vores personalegruppe er sammensat af både mænd og kvinder, alle med mange års erfaring inden for pædagogikken. Store dele af personalet har arbejdet i Evigglad i mere end 6 år, hvilket har medført en institution, hvor fælles værdier og grundholdninger er i højsædet. 
           <br>Tryghed, læring og morskab, er grundstene i vores pædagogik og vores hverdag i Evigglad.</p>
@@ -185,7 +187,7 @@
         </div>
       </section>
 
-      <section id="section4_omos">
+      <section class="content" id="section4_omos">
         <h2>Traditioner</h2>
         <div class="section_wrapper_omos3">
           <div class="element2_omos">
@@ -201,7 +203,7 @@
         </div>
       </section>
 
-        <section id="section5_omos">
+        <section class="content" id="section5_omos">
         <h2>Priser</h2>
         <div class="section_wrapper_omos4">
           <div class="element3_omos">
@@ -220,11 +222,26 @@
           
         </div>
       </section>
+      </main>
 
-    </main>
-    <footer></footer>
-    <script src="script/login.js"></script>
-    <script src="script/menu.js"></script>
+      <footer>
+        <div id="text_wrap_fotter">
+          <div id="aabning_forside">
+            <p>Åbningstider</p>
+            <p>Man-Tors 07.00 - 17.00</p>
+            <p>Fredag 07.00 - 16.00</p>
+          </div>
+          <div id="adresse_forside">
+            <p>Børnehuset Evigglad</p>
+            <p>Finsensvej 83 - 2000 Frederiksberg</p>
+            <p>Telefon: 38881129</p>
+            <p>E-mail: boernehaven@evigglad.dk</p>
+          </div>
+        </div>
+        <img id="sky" src="components/brumbasse.svg" alt="skyfooter" />
+      </footer>
+      <script src="script/login.js"></script>
+      <script src="script/menu.js"></script>
+
   </body>
 </html>
->>>>>>> c1b6eb1163ae18630d55e523e5beb290132de8a6

@@ -14,17 +14,57 @@ img {
   color: white;
 }
 
-#h1wrap {x
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+#section2 {
+  margin-top: 8%;
+  display: flex;
+  flex: 1fr 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+  gap: 8%;
+  font-size: 0.9em;
+  letter-spacing: 1px;
 }
 
-#billede1 {
-  position: absolute;
-  background-image: url(/billeder/baggrund1.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 60%;
+#section2 img {
+  max-height: 100px;
+  max-width: 100%;
+}
+
+#section3 {
+  margin-top: 8%;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}
+
+#section4 {
+  margin-top: 8%;
+  justify-content: center;
+  display: flex;
+  flex: 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.icontext {
+  display: grid;
+  max-width: 230px;
+  gap: 5%;
+}
+
+#section5 {
+  margin-top: 6%;
+}
+
+#section5 h1 {
+  margin-bottom: 1.5%;
+}
+
+#artikel_wrap {
+  display: flex;
+  gap: 6%;
+}
+
+.artikel {
+  display: grid;
+  gap: 6%;
 }
