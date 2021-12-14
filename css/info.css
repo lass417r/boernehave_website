@@ -33,6 +33,7 @@ img {
 }
 #section2_info a {
   color: black;
+  text-decoration: none;
 }
 #section2_info a:hover {
   color: #f2b90c;
@@ -64,6 +65,7 @@ img {
 }
 #section3_info a {
   color: black;
+  text-decoration: none;
 }
 #section3_info a:hover {
   color: #f2b90c;
