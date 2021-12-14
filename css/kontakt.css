@@ -1,3 +1,10 @@
+/********Generelt--------*/
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /*-------Sektion 1-------*/
 @media (min-width: 750px) {
   #section1_k {
@@ -11,25 +18,33 @@
   #section2_k .section_wrapper_k {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 150px;
   }
-
-  #section2_k .col_left {
-    display: grid;
-    place-content: end;
+  #section2_k .anita_name,
+  .anita_leader {
     text-align: center;
   }
 
-  #section2_k .col_right {
-    display: grid;
-    place-content: start;
-    text-align: center;
+  @media (min-width: 200px) {
+    #section2_k .col_2 {
+      display: grid;
+      text-align: center;
+      place-content: center;
+    }
+    #section2_k .col_3 {
+      display: grid;
+      text-align: center;
+      place-content: center;
+      gap: 70px;
+    }
   }
+
   /*-------Sektion 3-------*/
-  #section3_k .section_wrapper_k {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 182px;
+  @media (min-width: 750px) {
+    #section3_k .section_wrapper_k {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 182px;
+    }
   }
 }
 @media (min-width: 200px) {
