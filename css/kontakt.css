@@ -10,17 +10,17 @@
   /*-------Sektion 2-------*/
   #section2_k .section_wrapper_k {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 150px;
   }
 
-  .col_left {
+  #section2_k .col_left {
     display: grid;
     place-content: end;
     text-align: center;
   }
 
-  .col_right {
+  #section2_k .col_right {
     display: grid;
     place-content: start;
     text-align: center;
@@ -31,13 +31,20 @@
     grid-template-columns: 1fr 1fr;
     gap: 182px;
   }
+}
+@media (min-width: 200px) {
+  #section3_k .col_left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media (min-width: 750px) {
   .days {
     display: grid;
-    place-content: end;
   }
   .time {
     display: grid;
-    place-content: start;
   }
   /*-------Sektion 4-------*/
   #section4_k {
