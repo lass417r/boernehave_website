@@ -7,36 +7,50 @@ img {
 body {
   margin-top: 7rem;
 }
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 /*-------Sektion 1-------*/
 
 .map-responsive {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom: 31.25%;
   position: relative;
   height: 0;
 }
 .map-responsive iframe {
+  display: grid;
   left: 0;
   top: 0;
-  position: absolute;
 }
 
 /*-------Sektion 2-------*/
 @media (min-width: 750px) {
   #section2_k .section_wrapper_k {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
   }
   #section2_k .anita_name,
   .anita_leader {
     text-align: center;
   }
 }
+.coltxt_1 {
+  display: grid;
+  place-content: center;
+}
+.coltxt_2 {
+  display: grid;
+  place-content: center;
+}
 
 @media (min-width: 200px) {
   #section2_k .col_2 {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     place-content: center;
   }
