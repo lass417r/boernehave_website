@@ -4,7 +4,8 @@ main {
   max-width: 1200px;
 }
 
-img {
+img,
+video {
   display: block;
   width: 100%;
   height: auto;
