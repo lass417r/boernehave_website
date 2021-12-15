@@ -8,7 +8,8 @@ html {
   height: auto;
 }
 /* --------- GENERELT PÅ INFO ----------- */
-img {
+img,
+video {
   width: 100%;
   height: auto;
   display: block;
