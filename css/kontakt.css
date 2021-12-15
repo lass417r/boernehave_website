@@ -1,50 +1,108 @@
+/********Generelt--------*/
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+body {
+  margin-top: 7rem;
+}
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 /*-------Sektion 1-------*/
+.element2_k {
+  display: grid;
+  place-content: center;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 31.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+}
+
+/*-------Sektion 2-------*/
 @media (min-width: 750px) {
-  #section1_k {
-    display: grid;
-  }
-  #section1_k .section_wrapper_k {
-    display: grid;
-    place-content: center;
-  }
-  /*-------Sektion 2-------*/
   #section2_k .section_wrapper_k {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 150px;
+    gap: 200px;
   }
-
-  .col_left {
-    display: grid;
-    place-content: end;
+  #section2_k .anita_name,
+  .anita_leader {
     text-align: center;
   }
+}
+.image_anita {
+  padding: 2rem;
+}
+.coltxt_1 {
+  display: grid;
+  place-content: center;
+}
+.coltxt_2 {
+  display: grid;
+  place-content: center;
+}
 
-  .col_right {
+@media (min-width: 200px) {
+  #section2_k .col_2 {
     display: grid;
-    place-content: start;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
+    place-content: center;
   }
-  /*-------Sektion 3-------*/
+  #section2_k .col_3 {
+    display: grid;
+    text-align: center;
+    place-content: center;
+    gap: 70px;
+  }
+}
+
+/*-------Sektion 3-------*/
+@media (min-width: 750px) {
   #section3_k .section_wrapper_k {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 182px;
   }
+}
+
+@media (min-width: 200px) {
+  #section3_k .col_left {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+#section3_k h3 {
+  margin-bottom: -2rem;
+}
+#section3_k p {
+  margin-top: 3rem;
+  margin-bottom: -1rem;
+}
+@media (min-width: 750px) {
   .days {
     display: grid;
-    place-content: end;
   }
   .time {
     display: grid;
-    place-content: start;
   }
+
   /*-------Sektion 4-------*/
   #section4_k {
     display: grid;
   }
   .closing {
     display: grid;
-    place-content: center;
   }
 }
