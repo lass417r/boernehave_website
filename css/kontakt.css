@@ -24,7 +24,6 @@ h3 {
   height: 0;
 }
 .map-responsive iframe {
-  display: grid;
   left: 0;
   top: 0;
 }
